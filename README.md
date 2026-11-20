@@ -6,7 +6,6 @@
 ## Quick start
 Needs Python 3.9+ only.
 
-    tar xzf verified-findings.tar.gz && cd vf-repo
     python plearun_cli.py reports/report_fictional_02.txt records > findings.json
     python plearun_cli.py reports/report_fictional_02.txt records --trace   # explains every decision on stderr
     make test                                                                # runs all tests
